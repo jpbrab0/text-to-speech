@@ -1,0 +1,46 @@
+button{
+    cursor: pointer;
+    outline: none;
+}
+main{
+    width: 100%;
+    margin: 53px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h1{
+    font-family: sans-serif;
+}
+main .buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+    justify-content: center;
+    width: 100%;
+}
+main .buttons button + button{
+    margin-left: 13px;
+}
+main input{
+    width: 21%;
+    padding: 13px 0;
+    border: 1px solid #000;
+    border-radius: 13px;
+    text-align: center;
+}
+.primary{
+    background-color: turquoise;
+    border: none;
+    padding: 16px 53px;
+    font-size: 14px;
+    border-radius: 13px;
+}
+.danger{
+    background-color: tomato;
+    border: none;
+    padding: 16px 53px;
+    font-size: 14px;
+    border-radius: 13px;
+}
