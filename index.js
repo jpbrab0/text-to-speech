@@ -1,4 +1,4 @@
-// - Jquery + Js Vannila
+// - Jquery + Javascript
 const utterance = new SpeechSynthesisUtterance();
 
 utterance.lang = "pt-BR";
