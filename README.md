@@ -15,6 +15,7 @@
 |:--: | :---: |
 |Chrome|✔️|
 |Firefox|✔️|
+|Microsoft Edge|✔️|
 |Internet Explorer|❌|
 |Opera|❓|
 |Safari|✔️|
