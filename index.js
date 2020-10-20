@@ -23,3 +23,24 @@ $('.btn__falar').click(() => {
 $('.btn__parar').click(() => {
     parar()
 })
+let contador = 0
+// - Trocando a linguagem a ser falada.
+$("a").click(() => {
+    if(contador % 2 == 0){
+        if($("a").attr("class") == 'pt'){
+            $('a').removeClass("pt")
+            $("a").addClass("en")
+            utterance.lang = 'en-US'
+            $("h3").html("Linguagem: Inglês")
+            contador++
+        }
+    } else {
+        if($("a").attr("class") == 'en'){
+            $('a').removeClass("en")
+            $("a").addClass("pt")
+            utterance.lang = 'pt-BR'
+            $("h3").html("Linguagem: Português")
+            contador++
+        }
+    }
+})
