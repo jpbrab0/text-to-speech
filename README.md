@@ -8,4 +8,15 @@
 
 ### Caso queira acessar o projeto em tempo real clique [aqui](https://jpbrab0.github.io/text-to-speech/)
 
+
+## Compatibilidade
+
+|Navegadores|Compativel|
+|:--: | :---: |
+|Chrome|✔️|
+|Firefox|✔️|
+|Internet Explorer|❌|
+|Opera|❓|
+|Safari|✔️|
+
  __Feito por [João Pedro Resende](https://jpres.dev)__
