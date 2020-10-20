@@ -25,6 +25,7 @@ main .buttons button + button{
     margin-left: 13px;
 }
 main input{
+    outline: none;
     width: 21%;
     padding: 13px 0;
     border: 1px solid #000;
